@@ -1,0 +1,82 @@
+:root{
+    --primary-color: rgb(0, 153, 255);
+}
+html, body{
+    font-family: 'Baloo Da 2', cursive;
+    font-size: 14px;
+    margin: 0;
+    min-height: 300px;
+    padding: 0;
+    width: 300px;
+    background-color: white;
+}
+.header{
+    margin: 5px;
+    display: flex;
+    align-items: center;
+}
+.logo{
+    display: flex;
+    align-items: center;
+    margin: auto;
+    font-weight: bold;
+    font-size: 25px;
+    padding-left: 50px;
+    color: var(--primary-color);
+}
+.logo img{
+    filter: invert(65%) sepia(100%) hue-rotate(174deg);
+    height: 40px;
+    width: 2.5ch;
+    margin-right: 3px;
+}
+.exit{
+    background-color:white;
+    color: gray;
+    border: 0px soild white;
+    padding: 0 15px;
+    border-radius: 500px;
+    width: fit-content;
+    margin-right: 10px;
+    font-size: 25px;
+}
+.exit:hover{
+    background-color:rgb(245, 239, 239);
+    cursor: pointer;
+}
+.container{
+    height: 240px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* background-color: rebeccapurple; */
+}
+.ad img{
+    width: 280px;
+    height: 120px;
+}
+.signup{
+    height: fit-content;
+    text-align: center;
+}
+.signup button{
+    color: white;
+    margin: auto;
+    font-family: 'Baloo Da 2', cursive;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 10px;
+    padding: 10px 20px;
+    background-color: var(--primary-color);
+    border: none;
+}
+.signup button:hover{
+    cursor: pointer;
+    background-color: rgb(28, 164, 255);
+}
+.donthaveaccount{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
