@@ -80,3 +80,7 @@ html, body{
     justify-content: center;
     align-items: center;
 }
+.donthaveaccount a{
+    margin-left: 3px;
+    text-decoration: none;
+}
